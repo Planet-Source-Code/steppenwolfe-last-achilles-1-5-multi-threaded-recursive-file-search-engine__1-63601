@@ -1,0 +1,12 @@
+Achilles 1.5 Multithreaded File Search Engine
+Author John Underhill (Steppenwolfe)
+You can use this code in any way you like, so long as you give the proper credit to
+the author (thats me!)..
+
+If you have problems with the runnable.tlb, (not being able to add to Achilles proj), it is because lib is referenced in registry with previous location. Two choices: 1) reference old version (same file)
+2) go to regedit, search for "runnable.tlb" and delete the path reference. It will be remade when you add tlb to new project..
+
+Instructions:
+1) Compile the active-x (prjEngine.vbp) control into the release folder
+2) Add the refernce to the prjTestHarness project
+3) Have fun
